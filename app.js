@@ -7,7 +7,7 @@ function loadEventListener(){
 }
 function getObject(){
     const gitHub = new Github;
-    gitHub.getUser('DaniilVatsyk')
+    gitHub.getUser('Sektumsem')
         .then(data=>{
             ui.showProfile(data.profile);
             ui.showRepos(data.repos);
